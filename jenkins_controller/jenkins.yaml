@@ -36,7 +36,11 @@ credentials:
                 o1epS4clbUspxKat9tbIIRccKa9GWXVDNLih8TslLCBoL/knJc+aqw==
                 -----END RSA PRIVATE KEY-----
           scope: GLOBAL
-
+      - usernamePassword:
+          id: "artifactory"
+          password: "{AQAAABAAAAAQ8MWmsKRt7dXT9wepeSNW2ALODGcfLm1mzXe79iuWXW0=}"
+          scope: GLOBAL
+          username: "admin"
 jenkins:
   securityRealm:
     local:
